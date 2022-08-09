@@ -2,9 +2,10 @@
   "defaults": {
     "timeout": 20000,
     "reporters": [
+      "cli",
       "pa11y-ci-reporter-html",
       {
-        "destination": "./reports",
+        "destination": "./reportsWorse",
         "includeZeroIssues": true
       }
     ]
